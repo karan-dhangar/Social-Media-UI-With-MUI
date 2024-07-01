@@ -5,7 +5,7 @@ import React from "react"
 const Rightbar = () => {
   return (
     <Box bgcolor="white" flex={2} p={2} sx={{display:{xs:"none" , sm:"block"}}} >
-      <Box position="fixed"> 
+      <Box position="fixed" marginTop={10}> 
         <Typography variant="h6" fontWeight={500}> Online friends </Typography>
         <AvatarGroup total={9} max={7}>
           <Avatar alt="Remy Sharp" src="https://material-ui.com/static/images/avatar/1.jpg" />

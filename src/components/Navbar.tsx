@@ -21,7 +21,7 @@ const UserBox = styled("div")({
   alignItems:"center"
 })
 const Navbar = () => {
-  const [open , setOpen] = useState<boolean>(false)
+  const [open , setOpen] = useState<boolean>(false);
   const [anchorEl, setAnchorEl] = useState(null);
   return (
     <AppBar position="fixed">
